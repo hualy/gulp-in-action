@@ -23,6 +23,7 @@ gulp.task('styles', () => {
     .pipe(reload({stream: true}));
 });
 
+
 gulp.task('scripts', () => {
   return gulp.src('app/scripts/**/*.js')
     .pipe($.plumber())
